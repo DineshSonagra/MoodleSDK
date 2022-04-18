@@ -42,7 +42,8 @@ allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion cordovaConfig.SDK_VERSION
+    compileSdk cordovaConfig.SDK_VERSION
+//    compileSdkVersion cordovaConfig.SDK_VERSION
 //    buildToolsVersion cordovaConfig.BUILD_TOOLS_VERSION
 
     compileOptions {
